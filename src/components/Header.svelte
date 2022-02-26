@@ -34,9 +34,9 @@
         position: absolute;
         pointer-events: none;
         top: -10px;
-        right: -10px;
+        right: 0px;
         bottom: -10px;
-        left: -10px;
+        left: 0px;
         /* animation: kenburn 40s ease; */
         /* filter: blur(2px); */
         background-color: lightgrey;

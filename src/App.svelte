@@ -1,6 +1,9 @@
 <script>
 	import Header from "./components/Header.svelte"
+	import Album from "./components/Album.svelte"
+	import Carousel from "./components/svelte-carousel/main.js"
 	export let name;
+
 </script>
 
 <Header/>
@@ -9,7 +12,8 @@
 	
 	<h1>Hello {name}!</h1>
 	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
-	
+	<Album></Album>
+
 </main>
 
 <style>
